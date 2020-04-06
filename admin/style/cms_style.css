@@ -1,0 +1,602 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+.newLine {
+  border: solid #DFDFDF 0.5px;
+}
+
+a,
+a:hover,
+a:focus {
+  color          : inherit;
+  text-decoration: none;
+  transition     : all 0.3s;
+}
+
+.btn-secondary {
+  color: #fff !important;
+}
+
+
+.content {
+  width     : 100%;
+  padding   : 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.navbar {
+  padding      : 15px 10px;
+  background   : #fff;
+  border       : none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow   : 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline   : none !important;
+  border    : none;
+}
+
+.line {
+  width        : 100%;
+  height       : 1px;
+  border-bottom: 1px dashed #ddd;
+  margin       : 40px 0;
+}
+
+.formAlign {
+  margin-left: 5px;
+}
+
+.formSpacing {
+  padding-top: 8px;
+}
+
+.tabs {
+  background-color       : #947054;
+  padding                : 15px 0 5px 0;
+  text-align             : center;
+  color                  : #fff;
+  border-top-right-radius: 10px;
+  border-top-left-radius : 10px;
+  border-right           : 2px solid #fff;
+}
+
+.tabs:hover {
+  background-color: #F1F1F1;
+  color           : #947054;
+  cursor          : pointer;
+}
+
+.marginLeft {
+  margin-left: 10px;
+}
+
+.marginRight {
+  margin-right: 18px;
+}
+
+.pageContainer {
+  /* background-color       : #F1F1F1; */
+  margin-right              : 20px;
+  padding                   : 20px;
+}
+
+.pageTitle {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.selectedTab {
+  background-color: #F1F1F1;
+  color           : #000;
+}
+
+.editSection_property {
+  display: none;
+}
+
+.editSection_agent {
+  display: none;
+}
+
+#viewByCity_form {
+  padding: 10px 15px;
+}
+
+.addAgent_form {
+  padding         : 40px 50px 60px 50px;
+  background-color: #F7F7F7;
+}
+
+.addUser_form {
+  padding         : 40px 50px 60px 50px;
+  background-color: #F7F7F7;
+}
+
+.form_css {
+  padding         : 40px 50px 60px 50px;
+  background-color: #F7F7F7;
+}
+
+.formTitle {
+  margin-bottom: 30px;
+}
+
+.noPadding {
+  padding: 0 !important;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.addMarginTop {
+  margin-top: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.cancelLink {
+  cursor        : pointer;
+  font-weight   : bold;
+  color         : blue !important;
+  vertical-align: middle;
+}
+
+.filterBox {
+  border-radius: 5px;
+  border       : 1px solid #DFDFDF;
+}
+
+.filterCols {
+  border-right : solid #DFDFDF 0.5px;
+  border-bottom: #DFDFDF solid 1px;
+  padding      : 8px;
+}
+
+
+.justifyLeft {
+  justify-content: left !important;
+}
+
+.editFieldContainer {
+  background-color: #F7F7F7;
+  padding-top     : 50px;
+  padding-bottom  : 50px;
+}
+
+.editLabel::first-letter {
+  text-transform: capitalize;
+}
+
+
+.viewSuburbByCity_dropdown {
+  color           : #fff;
+  background-color: #343a40;
+  border-color    : #343a40;
+  font-weight     : bold;
+}
+
+
+.currentPage {
+  background-color: #DFDFDF;
+}
+
+.admin {
+  font-family   : 'Lato', sans-serif;
+  letter-spacing: 2px;
+  color         : #dbdbdb;
+  font-size     : 0.95rem;
+}
+
+.searchBtnBorder {
+  border-bottom-left-radius: 5px;
+}
+
+.resetSearchBtn {
+  padding                   : 5px;
+  font-size                 : 0.9rem;
+  border-bottom-right-radius: 5px;
+
+}
+
+.adminSearchForm select {
+  font-size: 0.8rem;
+}
+
+.min_bed,
+.max_bed,
+.min_bath,
+.max_bath,
+.min_park,
+.max_park {
+  padding: 0;
+}
+
+.setFeatured:hover, .setFeatured.form-check-input:hover, .setFeatured .form-check-label:hover {
+  cursor: pointer;
+}
+
+.setFeatured {
+  border: 1px solid; 
+  padding: 10px; 
+  text-align: center; 
+  background-color: #c0c5d8; 
+  font-weight: bold;
+}
+
+.featureBtn {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.featuredBtn {
+  background-color: #DFDFDF;
+}
+
+.featureBtn:hover {
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------
+    PAGINATION
+----------------------------------------------------- */
+
+.pagingLinks {
+  padding: 50px 30px 50px 30px;
+
+}
+
+.pagingLinks a {
+  padding: 10px;
+  border : #DFDFDF solid 0.5px;
+}
+
+
+/* ---------------------------------------------------
+   PROPERTY CAROUSEL
+----------------------------------------------------- */
+.propertyCaroDiv {
+  margin-bottom: 20px;
+}
+
+#carousel-custom {
+  width       : 68%;
+  margin-right: auto;
+}
+
+#carousel-custom .carousel-indicators {
+  margin     : 10px 0 0;
+  overflow   : auto;
+  position   : static;
+  text-align : left;
+  white-space: nowrap;
+  width      : 100%;
+}
+
+#carousel-custom .carousel-indicators li {
+  background-color     : transparent;
+  -webkit-border-radius: 0;
+  border-radius        : 0;
+  display              : inline-block;
+  height               : auto;
+  margin               : 0 !important;
+  width                : auto;
+}
+
+#carousel-custom .carousel-indicators li img {
+  display   : block;
+  opacity   : 0.5;
+  max-height: 78px;
+}
+
+#carousel-custom .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+#carousel-custom .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
+
+
+/* ---------------------------------------------------
+    AGENT CARDS
+----------------------------------------------------- */
+/* .propertyCard p {
+  font-size: 1rem;
+} */
+
+
+.propertyID {
+  margin-bottom: 20px;
+}
+
+.propertyIcon {
+  margin-left : 1px;
+  margin-right: 20px;
+}
+
+.addAgentCard {
+  background-color: #F7F7F7;
+  padding-top     : 140px;
+}
+
+.addAgentCard:hover {
+  background-color: #e0dede;
+}
+
+.agentCard {
+  margin-top: 30px;
+}
+
+.smallerFont {
+  font-size: 0.9rem;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.icon1 {
+  margin-right: 7px;
+}
+
+
+.profilePic {
+  max-width    : 250px;
+  height       : auto;
+  margin-bottom: 50px;
+}
+
+.profileCard {
+  margin-left: 30px;
+}
+
+.aboutProfile {
+  padding: 40px 50px 50px 40px;
+}
+
+.aboutProfile p {
+  font-size  : 0.9rem;
+  white-space: pre-wrap;
+}
+
+.myButton1 {
+  padding-left: 0;
+}
+
+.myButton2 {
+  padding-right: 0;
+}
+
+.aboutProperty p {
+  font-size  : 0.9rem;
+  white-space: pre-wrap;
+}
+
+.myBtn {
+  color           : #fff !important;
+  background-color: #007bff !important;
+  border-color    : #007bff !important;
+  cursor          : pointer;
+}
+
+.backBtn1 {
+  margin-bottom: 20px;
+  margin-right : 16px;
+}
+
+.backBtn {
+  margin-left : 45px;
+  margin-right: 25px;
+}
+
+.thumbnailSize {
+  max-height   : 60px;
+  margin-bottom: 10px;
+  margin-left  : 10px;
+}
+
+.propertyDetailsTable {
+  margin: 0;
+}
+
+.propertyDetailsTable td,
+.propertyDetailsTable th {
+  padding: 0.25rem;
+}
+
+.propertyDetailsCard {
+  padding: 1rem;
+}
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebarCollapse {
+  background-color: #5B689B;
+  border-color: #5B689B;
+}
+.wrapper {
+  display    : flex;
+  width      : 100%;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width : 250px;
+  max-width : 250px;
+  background: #3C4051;
+  color     : #fff;
+  transition: all 0.3s;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding   : 20px;
+  background: #353844;
+}
+
+#sidebar ul.components {
+  padding      : 20px 0;
+  border-bottom: 1px solid #5b689b;
+  border-top   : 1px solid #5b689b;
+}
+
+#sidebar ul p {
+  color  : #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding  : 10px 22px;
+  font-size: 1rem;
+  display  : block;
+}
+
+#sidebar ul li a:hover {
+  color     : #fff;
+  background: #5b689b;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  color     : #fff;
+  background: #494e63;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display  : block;
+  position : absolute;
+  top      : 50%;
+  right    : 20px;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size   : 0.9em !important;
+  padding-left: 30px !important;
+  background  : #6d7fcc;
+}
+
+ul.CTAs {
+  padding: 20px;
+}
+
+ul.CTAs a {
+  font-size    : 0.9em !important;
+  display      : block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #4e5368;
+  color     : #fff;
+}
+
+a.article,
+a.article:hover {
+  background: #5b689b !important;
+  color     : #fff !important;
+}
+
+.list-unstyled {
+  margin-bottom: 0;
+}
+
+.plusIcon {
+  border       : 0.5px dotted;
+  padding      : 5px;
+  border-radius: 5px;
+}
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 1380px) {
+  #carousel-custom {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+
+  #sidebar.active {
+    margin-left: 0;
+  }
+
+  #sidebarCollapse span {
+    display: none;
+  }
+}
+
+@media (max-width: 776px) {
+  #carousel-custom {
+    width: 65%;
+  }
+}
+
+@media (max-width: 767px) {
+  #carousel-custom {
+    width: 96%;
+  }
+
+  .filterCols {
+    border-right: none;
+  }
+}
+
+@media (max-width: 575px) {
+  /* .addAgentCard {
+    padding-top: 80px;
+  } */
+
+  .suburbTable {
+    font-size  : 0.9rem;
+    margin-left: -15px;
+  }
+}

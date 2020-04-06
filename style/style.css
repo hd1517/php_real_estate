@@ -1,0 +1,561 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.modal label {
+  font-weight: bold;
+}
+
+.headerContainer {
+  position  : relative;
+  text-align: center;
+}
+
+.header {
+  margin-top: 63px;
+}
+
+.headerImgDiv {
+  background: url(../images/header01.jpg) no-repeat;
+  background-size: cover;
+  height    : 383px;
+  width     : 100%;
+}
+
+.mySearchInput {
+  border-radius: 50rem !important;
+  font-style   : italic;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT
+----------------------------------------------------- */
+
+.btn-sm {
+  margin-top: 5px;
+}
+
+.pageWrap {
+  margin-top: 15vh;
+  min-height: 75vh;
+  position  : relative;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.headerImg {
+  width: 100%;
+}
+
+.viewProperties {
+  padding   : 30px;
+  text-align: center;
+}
+
+.propertyCardCol {
+  padding-left : 20px;
+  padding-right: 20px;
+}
+
+.agentProfileSection {
+  padding: 30px 120px;
+}
+
+.propertyProfileSection {
+  margin-top   : 90px;
+  margin-bottom: 50px;
+}
+
+.myBtn {
+  margin: 5px;
+}
+
+.watchlistBtn {
+  width        : 100%;
+  margin-bottom: 5px;
+  padding      : 5px;
+}
+
+.watchlistBtn:hover {
+  background-color: #DFDFDF;
+}
+
+.searchForm {
+  margin-top        : 30px;
+  padding           : 20px;
+  border            : 1px solid #DFDFDF;
+  border-radius     : 5px;
+  font-size         : 0.9rem;
+  -webkit-box-shadow: 0 2px 10px -6px #999;
+  -moz-box-shadow   : 0 2px 10px -6px #999;
+  box-shadow        : 0 2px 10px -6px #999;
+}
+
+.searchForm select {
+  font-size: 0.9rem;
+}
+
+.searchForm label {
+  font-weight: bold;
+}
+
+.resetBtn {
+  background-color: white;
+  border          : 0;
+}
+
+.agentsResults {
+  padding: 0 40px;
+}
+
+.loginSection {
+  max-width: 500px;
+  margin   : 30px auto;
+}
+
+.errorMsg {
+  text-align      : center;
+  color           : red;
+  background-color: #ffdbdb;
+  padding         : 5px;
+  border          : solid 1px red;
+  border-radius   : 5px;
+}
+
+.removeWatch {
+  background-color: #DFDFDF;
+}
+
+.headerTitle {
+  font-size  : 3.5rem;
+  color      : white;
+  text-shadow: 2px 2px #000;
+}
+
+/* ---------------------------------------------------
+    NAVBAR 
+----------------------------------------------------- */
+.logoTop {
+  letter-spacing: 4px;
+  font-family   : 'Libre Baskerville', serif;
+  text-transform: uppercase;
+  font-size     : 1.1rem;
+}
+
+.logoBottom {
+  text-align    : center;
+  text-transform: uppercase;
+  font-size     : 0.8rem;
+  margin-top    : -5px;
+  letter-spacing: 2px;
+  font-family   : 'Libre Baskerville', serif;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+.customItem {
+  margin-left: -1.5px;
+}
+
+.iconNavItem {
+  margin-right: 2px;
+}
+
+.iconNavItem2 {
+  margin-right: 3.5px;
+}
+
+.dropdown-item {
+  font-size: 0.9rem;
+}
+
+.nav-item {
+  font-size     : 0.9rem;
+  text-transform: uppercase;
+
+}
+
+.navbar {
+  -webkit-box-shadow: 0 2px 6px -6px #999;
+  -moz-box-shadow   : 0 2px 6px -6px #999;
+  box-shadow        : 0 2px 6px -6px #999;
+
+}
+
+.navbar a {
+  color: black;
+}
+
+/* ---------------------------------------------------
+    SIGN IN FORM
+----------------------------------------------------- */
+
+
+.form-signin {
+  width    : 100%;
+  max-width: 400px;
+  padding  : 15px;
+  margin   : auto;
+}
+
+.form-signin h1 {
+  text-align : center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.form-signin .form-control {
+  position  : relative;
+  box-sizing: border-box;
+  height    : auto;
+  padding   : 10px;
+  font-size : 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom             : -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius : 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom          : 10px;
+  border-top-left-radius : 0;
+  border-top-right-radius: 0;
+}
+
+
+/* ---------------------------------------------------
+    AGENT CARDS
+----------------------------------------------------- */
+/* .propertyCard p {
+  font-size: 1rem;
+} */
+
+
+.propertyID {
+  margin-bottom: 20px;
+}
+
+.propertyIcon {
+  margin-left : 1px;
+  margin-right: 20px;
+}
+
+.agentCard {
+  margin-top        : 30px;
+  -webkit-box-shadow: 0 2px 10px -6px #999;
+  -moz-box-shadow   : 0 2px 10px -6px #999;
+  box-shadow        : 0 2px 10px -6px #999;
+}
+
+.smallerFont {
+  font-size: 0.9rem;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.icon1 {
+  margin-right: 7px;
+}
+
+
+.profilePic {
+  max-width    : 250px;
+  height       : auto;
+  margin-bottom: 50px;
+}
+
+.profileCard {
+  margin-left: 30px;
+}
+
+.aboutProfile {
+  padding: 40px 50px 50px 40px;
+}
+
+.aboutProfile p {
+  font-size  : 0.9rem;
+  white-space: pre-wrap;
+}
+
+.myButton1 {
+  padding-left: 0;
+}
+
+.myButton2 {
+  padding-right: 0;
+}
+
+.aboutProperty p {
+  font-size  : 0.9rem;
+  white-space: pre-wrap;
+}
+
+.backBtn1 {
+  margin-bottom: 20px;
+  margin-right : 16px;
+}
+
+.backBtn {
+  margin-left : 45px;
+  margin-right: 25px;
+}
+
+.thumbnailSize {
+  max-height   : 60px;
+  margin-bottom: 10px;
+  margin-left  : 10px;
+}
+
+.propertyDetailsTable {
+  margin: 0;
+}
+
+.propertyDetailsTable td,
+.propertyDetailsTable th {
+  padding: 0.25rem;
+}
+
+.propertyDetailsCard {
+  padding: 1rem;
+}
+
+.propDetails {
+  margin-right: 6px;
+}
+
+/* ---------------------------------------------------
+    PAGINATION
+----------------------------------------------------- */
+
+.pagingLinks {
+  padding: 50px 30px 0 30px;
+
+}
+
+.pagingLinks a {
+  padding        : 10px;
+  border         : #DFDFDF solid 0.5px;
+  text-decoration: none;
+}
+
+.pagingLinks a:hover {
+  background-color: #DFDFDF;
+}
+
+.currentPage {
+  background-color: #DFDFDF;
+}
+
+/* ---------------------------------------------------
+   PROPERTY CAROUSEL
+----------------------------------------------------- */
+.propertyCaroDiv {
+  margin-bottom: 20px;
+}
+
+#carousel-custom {
+  width       : 68%;
+  margin-right: auto;
+}
+
+#carousel-custom .carousel-indicators {
+  margin     : 10px 0 0;
+  overflow   : auto;
+  position   : static;
+  text-align : left;
+  white-space: nowrap;
+  width      : 100%;
+}
+
+#carousel-custom .carousel-indicators li {
+  background-color     : transparent;
+  -webkit-border-radius: 0;
+  border-radius        : 0;
+  display              : inline-block;
+  height               : auto;
+  margin               : 0 !important;
+  width                : auto;
+}
+
+#carousel-custom .carousel-indicators li img {
+  display   : block;
+  opacity   : 0.5;
+  max-height: 83.7px;
+}
+
+#carousel-custom .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+#carousel-custom .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
+/* ---------------------------------------------------
+    FOOTER
+----------------------------------------------------- */
+.footer {
+  padding         : 20px;
+  background-color: #3c4051;
+
+  min-height: 10vh;
+  color     : #dddddd;
+}
+
+.footer p {
+  font-size: 0.7rem;
+  margin   : 0;
+}
+
+.footer h6 {
+  font-size     : 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom        : 2px;
+}
+
+.centerFooter {
+  margin-top   : auto!important; 
+  margin-bottom: auto!important;
+  text-align   : center;
+  width        : 100%;
+}
+
+.centerFooter a {
+  text-decoration: none;
+  color     : #dddddd;
+  cursor: auto;
+}
+
+.rightFooter {
+  margin-top   : auto!important; 
+  margin-bottom: auto!important;
+  text-align   : right;
+  width        : 100%;
+  font-size: 1.2rem!important;
+}
+
+.rightFooter i {
+  margin-right: 25px;
+}
+
+.rightFooter a {
+  text-decoration: none;
+  color     : #dddddd;
+}
+
+
+/* ---------------------------------------------------
+   MEDIA QUERIES
+----------------------------------------------------- */
+
+@media (max-width: 1041px) {
+  .agentProfileSection {
+    padding: 30px 80px;
+  }
+}
+
+@media (max-width: 960px) {
+  .agentProfileSection {
+    padding: 30px 30px;
+  }
+}
+
+@media (max-width: 840px) {
+  #carousel-custom {
+    width: 65%;
+  }
+
+  .propertyProfileSection {
+    padding: 70px 20px;
+  }
+
+  .agentProfileSection {
+    padding: 20px 20px;
+  }
+
+  .propDetails {
+    margin-right: 25px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  #carousel-custom {
+    width: 96%;
+  }
+
+  .propDetails {
+    margin-right: 2px;
+  }
+
+
+  .container {
+    max-width: 680px;
+  }
+
+  .centerFooter {
+    text-align   : left;
+    margin-top: 8px!important;
+  }
+  
+  .rightFooter {
+    text-align   : left;
+    margin-top: 8px!important;
+  }
+
+  .rightFooter i {
+    margin-right: 15px;
+  }
+  
+
+}
+
+@media (max-width: 576px) {
+  .profileCard {
+    margin: 0;
+  }
+
+  .agentProfileSection {
+    padding: 50px 30px;
+  }
+
+
+}
